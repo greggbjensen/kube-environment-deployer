@@ -8,12 +8,6 @@ if (environment.production) {
   enableProdMode();
 }
 
-const VSS: any = (window as any).VSS;
-VSS.init({
-  usePlatformScripts: true,
-  usePlatformStyles: true
-});
-
 platformBrowserDynamic().bootstrapModule(AppModule, {
   defaultEncapsulation: ViewEncapsulation.None
 })
