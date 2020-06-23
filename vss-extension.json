@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "kube-environment-deployer",
   "publisher": "greggbjensen",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "name": "Kubernetes Environment Deployer",
   "description": "Azure DevOps extension that shows all environments side by side for kubernetes and allows releases to be promoted.",
   "public": false,
@@ -22,14 +22,15 @@
           "properties": {
               "name": "Environment Deployer",
               "order": 30,
-              "uri": "views/environment-deployer.html"
+              "uri": "launch.html"
           }
       }
   ],
   "files": [
       {
-          "path": "views/environment-deployer.html",
-          "addressable": true
+        "path": "static",
+        "addressable": true,
+        "packagePath": "/"
       },
       {
           "path": "node_modules/vss-web-extension-sdk/lib",
