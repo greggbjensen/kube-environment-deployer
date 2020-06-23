@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "kube-environment-deployer",
   "publisher": "greggbjensen",
-  "version": "0.1.9",
+  "version": "0.1.12",
   "name": "Kubernetes Environment Deployer",
   "description": "Azure DevOps extension that shows all environments side by side for kubernetes and allows releases to be promoted.",
   "public": false,

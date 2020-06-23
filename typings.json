@@ -1,0 +1,5 @@
+{
+  "ambientDependencies": {
+    "vss": "github:microsoft/vss-web-extension-sdk/typings/vss.d.ts"
+  }
+}
